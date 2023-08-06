@@ -48,8 +48,8 @@ By default, the `scale` is 0.5, so if you wish to obtain better results (but use
 
 
 ### Prediction
-c is the classes of prediction
-set to 3 or 4 
+c is the classes of prediction  
+Set to 3 or 4 
 
 ```console
 python predict.py -m 'path_to_pretrained_model' -s 1 -c 3  
@@ -60,5 +60,5 @@ python predict.py -m 'path_to_pretrained_model' -s 1 -c 3
 
 
 ### prediction example
-the '0069 crop' folder
+The '0069 crop' folder
 
