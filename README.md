@@ -9,8 +9,8 @@
 pip install -r requirements.txt
 ```
 
-### generate simulatimg images
-generate 3 phases (rock salt, O1, O3) images
+### generate simulated images
+generate images of 3 phases: rock salt, O1, and O3
 ```console
 > python simulate_defect.py
 ```
@@ -28,7 +28,7 @@ generate 3 phases and dislocation
 usage: train.py [-h] [--epochs E] [--batch-size B] [--learning-rate LR]
                 [--load LOAD] [--scale SCALE] [--validation VAL] [--amp]
 
-Train the UNet on images and target masks
+Train the HaUNet on images and target masks
 
 optional arguments:
   -h, --help            show this help message and exit
